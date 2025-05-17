@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+/* Body */
+
+.tag1_element {
+  padding-top: 70px;
+}
+.body_page {
+  display: flex;
+}
+.body_page::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 4px;
+}
+.body_page::-webkit-scrollbar-track {
+  background: #888;
+  border-radius: 4px;
+}
+.body_page::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+.tag1 p {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  margin-left: 250px;
+  margin-right: 350px;
+  padding: 200px;
+}
+.head_title {
+  font-size: 20px;
+  color: #00aeef;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.tre,
+.do,
+.rap,
+.au,
+.trung {
+  margin-left: 300px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.tre ul,
+.do ul,
+.rap ul,
+.au ul,
+.trung ul {
+  display: flex;
+}
+.tre ul li,
+.do ul li,
+.rap ul li,
+.au ul li,
+.trung ul li {
+  margin-right: 10px;
+}
+.ranking_theme {
+  margin: -30px;
+}
+#rank-title {
+  font-size: 20px;
+  color: #00aeef;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* Footer */

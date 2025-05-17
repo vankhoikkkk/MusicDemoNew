@@ -1,0 +1,152 @@
+/* ===== Định dạng cho toàn bộ trang ===== */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(/image/logback.jpg);
+    background-size: 400% 400%;
+    animation: gradientBG 200s ease infinite;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* ===== Form đăng nhập ===== */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: #171717;
+    border-radius: 25px;
+    transition: .4s ease-in-out;
+}
+
+.form:hover {
+    transform: scale(1.05);
+    border: 1px solid black;
+}
+
+/* ===== Tiêu đề trong form ===== */
+#heading {
+    text-align: center;
+    margin: 2em;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+}
+
+/* ===== Các ô nhập liệu ===== */
+.field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #171717;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+
+/* ===== Trường nhập liệu ===== */
+.input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #d3d3d3;
+}
+
+/* ===== Khu vực chứa các nút bấm ===== */
+.form .btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 2.5em;
+}
+
+/* ===== Nút Đăng nhập ===== */
+.button1 {
+    padding: 0.5em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+    border-radius: 5px;
+    margin-right: 0.5em;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #252525;
+    color: white;
+}
+
+.button1:hover {
+    background-color: rgb(48, 46, 46);
+    color: white;
+}
+
+/* ===== Nút Đăng ký ===== */
+.button2 {
+    padding: 0.5em;
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #252525;
+    color: white;
+}
+
+.button2:hover {
+    background-color: rgb(48, 46, 46);
+    color: white;
+}
+
+/* ===== Nút quên mk ===== */
+.button3 {
+    margin-bottom: 3em;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #252525;
+    color: white;
+}
+
+.button3:hover {
+    background-color: rgb(136, 67, 67);
+    color: white;
+}
+
+/* ===== Responsive cho màn hình nhỏ hơn ===== */
+@media (max-width: 360px) {
+    .form {
+        width: 90%;
+    }
+
+    .button1,
+    .button2 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .button3 {
+        width: 100%;
+    }
+}

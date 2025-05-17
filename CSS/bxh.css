@@ -1,0 +1,78 @@
+.tabs {
+  display: flex;
+  justify-content: center;
+}
+.tabs div {
+  margin: 0.3px;
+  padding: 8px;
+  color: black;
+  background-color: #e5e5e5;
+  cursor: pointer;
+}
+#tab-usuk {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 13px;
+  padding-right: 13px;
+}
+
+#tab-cn {
+  border-radius: 0px 13px 13px 0px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 13px;
+  padding-right: 8px;
+}
+#tab-vn {
+  border-radius: 13px 0px 0px 13px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 13px;
+  padding-right: 8px;
+}
+
+#tab-cn:hover,
+#tab-usuk:hover,
+#tab_vn :hover {
+  color: white;
+  background-color: red;
+}
+.tab.active {
+  color: white;
+  background-color: red;
+}
+/* #vn ul li img,
+#usuk ul li img,
+#cn ul li img {
+  width: 140px;
+} */
+
+#vn ul li,
+#usuk ul li,
+#cn ul li {
+  display: flex;
+}
+#vn ul li,
+#usuk ul li,
+#cn ul li {
+  padding: 20px;
+}
+.chart {
+  display: none;
+}
+
+.chart.active {
+  display: block;
+}
+
+.song-number {
+  width: 30px;
+  font-weight: bold;
+  text-align: left;
+}
+.song-info div strong a {
+  color: black;
+}
+.song-info div strong a:hover {
+  color: #00aeef;
+}

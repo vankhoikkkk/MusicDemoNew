@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+.Header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 60px;
+}
+
+.Header {
+  border-bottom: #dadada solid 1px;
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  height: 70px;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.Header a {
+  text-decoration: none;
+}
+
+.Logo a img {
+  width: 80px;
+}
+
+.Menu {
+  margin-left: -400px;
+}
+
+.Menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.Menu ul li {
+  padding: 10px;
+}
+
+.Menu ul li a {
+  color: rgb(91, 91, 91);
+}
+
+#Other {
+  margin-top: -4px;
+}
+
+.Other ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.Other ul li {
+  padding-right: 10px;
+}
+
+.Other ul li a img {
+  width: 20px;
+}
+
+.Search_box {
+  background-color: #e7e7e7;
+  padding: 7px 10px;
+  border-radius: 4px;
+}
+
+.Search_box ul li {
+  padding-right: 3px;
+}
+
+.Search_box ul li input {
+  border-style: none;
+  background-color: #e7e7e7;
+  vertical-align: middle;
+}
+
+#Search {
+  background: url(/image/Icon/search.png) no-repeat;
+  background-size: 18px;
+  padding-right: 25px;
+  padding-bottom: 4px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#DK_thang {
+  width: 39px;
+  margin-top: -3px;
+}
+
+.Login,
+.Signin {
+  margin-top: 7px;
+}
+
+#Login {
+  color: rgba(0, 0, 0, 0.6);
+  padding: 7px 13px;
+}
+
+#Signin {
+  color: white;
+  padding: 7px 13px;
+  border-radius: 4px;
+  background-image: linear-gradient(45deg, #2f80ed 0%, #00aeef 100%);
+}
